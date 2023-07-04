@@ -1,3 +1,7 @@
 <?php
 
-include "main.html";
+include "career.php";
+include "Scareer.php";
+
+  ?>
+
