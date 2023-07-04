@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -18,4 +18,10 @@
 </form>
 
 </body>
-</html>
+</html> -->
+
+<?php
+include "career.php";
+include "Scareer.php";
+
+?>

@@ -24,7 +24,7 @@
    <link rel="stylesheet" href="style.css">
 
   <form class="gform pure-form pure-form-stacked" method="POST"  data-email="clementine.amelina@gmail.com"
-  action="https://script.google.com/macros/s/AKfycbxP2BA9aRlpZ5CshNu6BX_mILE0F-WOj-ys2JRUGsSJmSQsAdTxMm5okti-YOuw50M/exec">
+  action="https://script.google.com/macros/s/AKfycbyNY8OQzi5P1S1a9On7WzUJhH6kutJ7KOxEHnpa2cu49zmY1GLORVwHhxNsnEQR8Cc/exec">
     <!-- change the form action to your script url -->
 
     <div class="form-elements">
