@@ -1,5 +1,5 @@
 <?php
-require_once ("out.php");
+
 // получим данные формы
 
 $name = $_POST['name'];
@@ -23,10 +23,17 @@ $text = trim($text);
 
 // отправка данных на почту
 
-sendWithAttachments("clementine.amelina@gmail.com", "Новое письмо с сайта", "Имя: " . $name . "\n" .
-    "Email: " . $email . "\n" .
-    "Сообщение: " . $text .
-    "From: no-reply@mydomain.ru \r\n");
-
+if(mail("clementine.amelina@gmail.com", 
+    "Новое письмо с сайта", 
+    "Имя: ".$name."\n".
+    "Email: ". $email."\n".
+    "Сообщение: ". $text.
+    "From: no-reply@mydomain.ru \r\n")
+    ) {
+    echo ('Gut');
+}
+else {
+    echo ('Bad');
+}
 
 ?>
